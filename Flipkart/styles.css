@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "roboto";
+}
+
+.bg-color {
+    background-color: #c9cdd1;
+
+}
+
+.blue-bg {
+    background-color: #167cf7;
+    padding: 10px;
+}
+
+.blue-bg-heading {
+    margin-left: 50px;
+    font-size: 15px;
+    color: white;
+
+}
+
+.arrow {
+    margin-top: 2px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.delivery-address-heading {
+    font-size: 13px;
+
+}
+
+.delivery-address-home {
+    color: gray;
+    border-radius: 15px;
+    font-size: 12px;
+    margin-left: 40px;
+    width: 60px;
+    text-align: center;
+}
+
+.change-button {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: #c9cdd1;
+    color: blue;
+    text-align: center;
+    background-color: white;
+    height: 30px;
+    font-size: 12px;
+}
+
+.card-heading {
+    font-size: 14px;
+}
+
+.card-paragraph {
+    font-size: 12px;
+    color: gray;
+}
+
+img {
+    height: 80px;
+    width: 40px;
+
+}
+
+.cost-of-the-product {
+    text-decoration: line-through;
+    font-size: 12px;
+    color: gray;
+}
+
+.quantity-button {
+    margin-top: 10px;
+    border-width: 1px;
+    background-color: white;
+    border-color: #c9cdd1;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.save-button {
+    height: 30px;
+    width: 200px;
+    border-width: 1px;
+    border-color: #c9cdd1;
+    border-style: solid;
+    background-color: white;
+}
+
+.horizontal-line {
+    border-style: dashed;
+}
+
+.button-ul {
+    display: block;
+    position: absolute;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.place-order-button {
+    background-color: #fa431e;
+    border-radius: 5px;
+    border-style: none;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    bottom: 0;
+}
+
+.class {
+    margin-top: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

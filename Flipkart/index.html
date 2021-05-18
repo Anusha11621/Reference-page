@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="bg-light">
+        <div class="d-flex flex-row blue-bg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left arrow" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+            </svg>
+            <h1 class="blue-bg-heading">
+                My Cart(10)
+            </h1>
+        </div>
+        <div class="bg-white d-flex flex-row">
+            <div>
+                <div class="d-flex flex-row bg-white">
+                    <h1 class="delivery-address-heading pt-2 ml-2">
+                        Deliver to <b>Ramana, 532211</b>
+                    </h1>
+                    <p class="delivery-address-home bg-color mt-2">
+                        Home
+                    </p>
+                </div>
+                <p class="delivery-address-heading ml-2" style="color:gray;">
+                    Saraswathi Book Shop, Old Bus stop Tekkali
+                </p>
+            </div>
+            <button class="change-button mt-3 ml-5">
+                Change
+            </button>
+        </div>
+        <div class="bg-white">
+            <div class="bg-white mt-2 p-2 d-flex flex-row">
+                <div>
+                    <h1 class="card-heading">
+                        MAYBELLINE NEW YORK Fit Me foun...
+                    </h1>
+                    <p class="card-paragraph">
+                        230 Natural Buff, 18 ml
+                    </p>
+                    <p class="card-paragraph">
+                        Seller:Cosmetics Warehouse
+                    </p>
+                </div>
+                <div>
+                    <img src="https://rukminim1.flixcart.com/image/416/416/khcb7gw0/foundation/z/m/5/18-fit-me-matte-poreless-liquid-tube-maybelline-new-york-original-imafxdjkbzwj3vcd.jpeg?q=70" class="ml-5" />
+                </div>
+            </div>
+            <div class="bg-white d-flex flex-row">
+                <div class="d-flex flex-row bg-white">
+                    <h5 class="ml-2">
+                        &#8377 298
+                    </h5>
+                    <p class="cost-of-the-product ml-2 mt-1 mb-1">
+                        &#8377 299
+                    </p>
+                </div>
+                <button style="text-align:right;margin-right:20px;margin-top:0px" class="bg-white ml-auto quantity-button dropdown">
+                    Qty: 1
+                    <div class="dropdown-content ">
+                        <p class="button-ul">
+                            one
+                        </p>
+                        <br>
+                        <p class="button-ul">
+                            Two
+                        </p>
+                        <br>
+                        <p class="button-ul">
+                            More
+                        </p>
+                        <br>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="d-flex flex-row bg-white ml-2 pt-1">
+                <p class="card-paragraph" style="color:green;font-weight:bold;">
+                    1 offer Applied . 3 offers Available
+                </p>
+
+            </div>
+            <h5 class="card-paragraph ml-2" style="color:black;">
+                Delivery by Thu May 25 | &#8377 90
+            </h5>
+            <div class="d-flex flex-row bg-white">
+                <div class="d-flex flex-row bg-white" style="text-align:center;">
+                    <button class="save-button d-flex flex-row ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save-fill ml-4 mt-1" viewBox="0 0 16 16" style="color:gray;">
+                            <path d="M8.5 1.5A1.5 1.5 0 0 1 10 0h4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h6c-.314.418-.5.937-.5 1.5v7.793L4.854 6.646a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l3.5-3.5a.5.5 0 0 0-.708-.708L8.5 9.293V1.5z" />
+                        </svg>
+                        <p class="card-paragraph ml-3 mt-1">
+                            Save for Later
+                        </p>
+                    </button>
+                </div>
+                <div class="d-flex flex-row bg-white" style="text-align:center;">
+                    <button class="save-button d-flex flex-row ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive-fill ml-4 mt-1" viewBox="0 0 16 16" style="color:gray;">
+                            <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z" />
+                        </svg>
+                        <p class="card-paragraph ml-3 mt-1">
+                            Remove
+                        </p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white">
+            <div class="bg-white mt-2 p-2 d-flex flex-row">
+                <div>
+                    <h1 class="card-heading">
+                        WESLEY Milestone 25 L Laptop Back..
+                    </h1>
+                    <p class="card-paragraph">
+                        Blue
+                    </p>
+                    <div class="d-flex flex-row">
+                        <p class="card-paragraph mr-2">
+                            Seller:LONGANITRADING
+                        </p>
+                        <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png" style="width:50px;height:20px;">
+                    </div>
+                </div>
+                <div>
+                    <img style="width:50px" src="https://rukminim1.flixcart.com/image/880/1056/k4k7f680/bag/j/n/d/milestone-wesley-25-original-imafajguwrb26srf.jpeg?q=50" class="ml-5" />
+                </div>
+            </div>
+            <div class="bg-white d-flex flex-row">
+                <div class="d-flex flex-row bg-white">
+                    <h5 class="ml-2">
+                        &#8377 403
+                    </h5>
+                    <p class="cost-of-the-product ml-2 mt-1 mb-1">
+                        &#8377 999
+                    </p>
+                    <p class="card-paragraph ml-2 mt-1 mb-1" style="color:green;font-weight:bold;">59% off</p>
+                </div>
+                <button style="text-align:right;margin-right:17px;margin-top:0px" class="bg-white ml-auto quantity-button ">
+                    Qty: 1
+                    <div class="dropdown-content ">
+                        <p class="button-ul">
+                            one
+                        </p>
+                        <br>
+                        <p class="button-ul">
+                            Two
+                        </p>
+                        <br>
+                        <p class="button-ul">
+                            More
+                        </p>
+                        <br>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="bg-white ml-2 pt-1">
+                <p class="card-paragraph" style="color:green;font-weight:bold;">
+                    3 offers Available
+                </p>
+            </div>
+            <h5 class="card-paragraph ml-2" style="color:black;">
+                Delivery by Thu May 25 | <span class="card-paragraph" style="color:green;font-weight:bold;">Free</span> <span class="cost-of-the-product ml-2 mt-1 mb-1">&#8377 40</span>
+            </h5>
+
+            <div class="d-flex flex-row bg-white">
+                <div class="d-flex flex-row bg-white" style="text-align:center;">
+                    <button class="save-button d-flex flex-row ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save-fill ml-4 mt-1" viewBox="0 0 16 16" style="color:gray;">
+                            <path d="M8.5 1.5A1.5 1.5 0 0 1 10 0h4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h6c-.314.418-.5.937-.5 1.5v7.793L4.854 6.646a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l3.5-3.5a.5.5 0 0 0-.708-.708L8.5 9.293V1.5z" />
+                        </svg>
+                        <p class="card-paragraph ml-3 mt-1">
+                            Save for Later
+                        </p>
+                    </button>
+                </div>
+                <div class="d-flex flex-row bg-white" style="text-align:center;">
+                    <button class="save-button d-flex flex-row ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive-fill ml-4 mt-1" viewBox="0 0 16 16" style="color:gray;">
+                            <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z" />
+                        </svg>
+                        <p class="card-paragraph ml-3 mt-1">
+                            Remove
+                        </p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white">
+            <div class="bg-white mt-2 p-2 d-flex flex-row">
+                <div>
+                    <h1 class="card-heading">
+                        Young trendz Solid Women round...
+                    </h1>
+                    <p class="card-paragraph">
+                        Size: L,Pack of 2
+                    </p>
+                    <div class="d-flex flex-row">
+                        <p class="card-paragraph mr-2">
+                            Seller:YoungTrendz
+                        </p>
+                        <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png" style="width:50px;height:20px;">
+                    </div>
+                </div>
+                <div>
+                    <img style="width:70px;" src="https://rukminim1.flixcart.com/image/880/1056/kcc9q4w0/t-shirt/s/z/q/s-2co-w-regular-must-blk-young-trendz-original-imafthf9brdq8cfj.jpeg?q=50" class="ml-5" />
+                </div>
+            </div>
+            <div class="bg-white d-flex flex-row">
+                <div class="d-flex flex-row bg-white">
+                    <h5 class="ml-2">
+                        &#8377 539
+                    </h5>
+                    <p class="cost-of-the-product ml-2 mt-1 mb-1">
+                        &#8377 2,069
+                    </p>
+                    <p class="card-paragraph ml-2 mt-1 mb-1" style="color:green;font-weight:bold;">73% off</p>
+                </div>
+                <button style="text-align:right;margin-right:28px;margin-top:0px" class="bg-white ml-auto quantity-button ">
+                    Qty: 1
+                    <div class="dropdown-content ">
+                        <p class="button-ul">
+                            one
+                        </p>
+                        <br>
+                        <p class="button-ul">
+                            Two
+                        </p>
+                        <br>
+                        <p class="button-ul">
+                            More
+                        </p>
+                        <br>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="bg-white ml-2 pt-1">
+                <p class="card-paragraph" style="color:green;font-weight:bold;">
+                    2 offers applied . 3offers Available
+                </p>
+            </div>
+            <h5 class="card-paragraph ml-2" style="color:black;">
+                Delivery by Fri May 21 | <span class="card-paragraph" style="color:green;font-weight:bold;">Free</span> <span class="cost-of-the-product ml-2 mt-1 mb-1">&#8377 40</span>
+            </h5>
+
+            <div class="d-flex flex-row bg-white">
+                <div class="d-flex flex-row bg-white" style="text-align:center;">
+                    <button class="save-button d-flex flex-row ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save-fill ml-4 mt-1" viewBox="0 0 16 16" style="color:gray;">
+                            <path d="M8.5 1.5A1.5 1.5 0 0 1 10 0h4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h6c-.314.418-.5.937-.5 1.5v7.793L4.854 6.646a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l3.5-3.5a.5.5 0 0 0-.708-.708L8.5 9.293V1.5z" />
+                        </svg>
+                        <p class="card-paragraph ml-3 mt-1">
+                            Save for Later
+                        </p>
+                    </button>
+                </div>
+                <div class="d-flex flex-row bg-white" style="text-align:center;">
+                    <button class="save-button d-flex flex-row ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive-fill ml-4 mt-1" viewBox="0 0 16 16" style="color:gray;">
+                            <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z" />
+                        </svg>
+                        <p class="card-paragraph ml-3 mt-1">
+                            Remove
+                        </p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white">
+            <div class="bg-white mt-2 p-2 d-flex flex-row">
+                <div>
+                    <h1 class="card-heading">
+                        MONTREZ 3/4th Sleeve Solid Wom...
+                    </h1>
+                    <p class="card-paragraph">
+                        Size: L
+                    </p>
+                    <div class="d-flex flex-row">
+                        <p class="card-paragraph mr-2">
+                            Seller:GREAT RETAIL
+                        </p>
+                        <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png" style="width:50px;height:20px;">
+                    </div>
+                </div>
+                <div>
+                    <img style="width:70px;" src="https://rukminim1.flixcart.com/image/880/1056/kflftzk0/jacket/v/z/z/m-mnt-4112-montrez-original-imafwyyuqmpyaqey.jpeg?q=50" class="ml-5" />
+                </div>
+            </div>
+            <div class="bg-white d-flex flex-row">
+                <div class="d-flex flex-row bg-white">
+                    <h5 class="ml-2">
+                        &#8377 399
+                    </h5>
+                    <p class="cost-of-the-product ml-2 mt-1 mb-1">
+                        &#8377 1,499
+                    </p>
+                    <p class="card-paragraph ml-2 mt-1 mb-1" style="color:green;font-weight:bold;">73% off</p>
+                </div>
+                <button style="text-align:right;margin-right:17px;margin-top:0px" class="bg-white ml-auto quantity-button ">
+                    Qty: 1
+                    <div class="dropdown-content ">
+                        <p class="button-ul">
+                            one
+                        </p>
+                        <br>
+                        <p class="button-ul">
+                            Two
+                        </p>
+                        <br>
+                        <p class="button-ul">
+                            More
+                        </p>
+                        <br>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="bg-white ml-2 pt-1">
+                <p class="card-paragraph" style="color:green;font-weight:bold;">
+                    2 Offers applied . 4 offers Available
+                </p>
+            </div>
+            <h5 class="card-paragraph ml-2" style="color:black;">
+                Delivery by Thu May 25 | <span class="card-paragraph" style="color:green;font-weight:bold;">Free</span> <span class="cost-of-the-product ml-2 mt-1 mb-1">&#8377 40</span>
+            </h5>
+
+            <div class="d-flex flex-row bg-white">
+                <div class="d-flex flex-row bg-white" style="text-align:center;">
+                    <button class="save-button d-flex flex-row ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save-fill ml-4 mt-1" viewBox="0 0 16 16" style="color:gray;">
+                            <path d="M8.5 1.5A1.5 1.5 0 0 1 10 0h4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h6c-.314.418-.5.937-.5 1.5v7.793L4.854 6.646a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l3.5-3.5a.5.5 0 0 0-.708-.708L8.5 9.293V1.5z" />
+                        </svg>
+                        <p class="card-paragraph ml-3 mt-1">
+                            Save for Later
+                        </p>
+                    </button>
+                </div>
+                <div class="d-flex flex-row bg-white" style="text-align:center;">
+                    <button class="save-button d-flex flex-row ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive-fill ml-4 mt-1" viewBox="0 0 16 16" style="color:gray;">
+                            <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z" />
+                        </svg>
+                        <p class="card-paragraph ml-3 mt-1">
+                            Remove
+                        </p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white">
+            <div class="bg-white mt-2 p-2 d-flex flex-row">
+                <div>
+                    <h1 class="card-heading">
+                        HELLO DESIGN Women Maxi Pink dr..
+                    </h1>
+                    <p class="card-paragraph">
+                        Size: XL, Size:IMPORTANT NOTE :- ple..
+                    </p>
+                    <div class="d-flex flex-row">
+                        <p class="card-paragraph mr-2">
+                            Seller:MUSKAN GARMENTS
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <img style="width:70px" src="https://rukminim1.flixcart.com/image/880/1056/keg02a80/dress/g/s/x/xxl-hld176-hello-design-original-imafv4z9muknmhcs.jpeg?q=50" class="ml-5" />
+                </div>
+            </div>
+            <div class="bg-white d-flex flex-row">
+                <div class="d-flex flex-row bg-white">
+                    <h5 class="ml-2">
+                        &#8377 699
+                    </h5>
+                    <p class="cost-of-the-product ml-2 mt-1 mb-1">
+                        &#8377 1,999
+                    </p>
+                    <p class="card-paragraph ml-2 mt-1 mb-1" style="color:green;font-weight:bold;">59% off</p>
+                </div>
+                <button style="text-align:right;margin-right:10px;margin-top:0px" class="bg-white ml-auto quantity-button ">
+                    Qty: 1
+                    <div class="dropdown-content ">
+                        <p class="button-ul">
+                            one
+                        </p>
+                        <br>
+                        <p class="button-ul">
+                            Two
+                        </p>
+                        <br>
+                        <p class="button-ul">
+                            More
+                        </p>
+                        <br>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="bg-white ml-2 pt-1">
+                <p class="card-paragraph" style="color:green;font-weight:bold;">
+                    2 offers applied.3 offers Available
+                </p>
+            </div>
+            <h5 class="card-paragraph ml-2" style="color:black;">
+                Delivery by fri May 21 | <span class="card-paragraph" style="color:green;font-weight:bold;">Free</span> <span class="cost-of-the-product ml-2 mt-1 mb-1">&#8377 55</span>
+            </h5>
+
+            <div class="d-flex flex-row bg-white">
+                <div class="d-flex flex-row bg-white" style="text-align:center;">
+                    <button class="save-button d-flex flex-row ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save-fill ml-4 mt-1" viewBox="0 0 16 16" style="color:gray;">
+                            <path d="M8.5 1.5A1.5 1.5 0 0 1 10 0h4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h6c-.314.418-.5.937-.5 1.5v7.793L4.854 6.646a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l3.5-3.5a.5.5 0 0 0-.708-.708L8.5 9.293V1.5z" />
+                        </svg>
+                        <p class="card-paragraph ml-3 mt-1">
+                            Save for Later
+                        </p>
+                    </button>
+                </div>
+                <div class="d-flex flex-row bg-white" style="text-align:center;">
+                    <button class="save-button d-flex flex-row ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive-fill ml-4 mt-1" viewBox="0 0 16 16" style="color:gray;">
+                            <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z" />
+                        </svg>
+                        <p class="card-paragraph ml-3 mt-1">
+                            Remove
+                        </p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white">
+            <div class="bg-white mt-2 p-2 d-flex flex-row">
+                <div>
+                    <h1 class="card-heading">
+                        L'Oreal Professionnel Xtenso care shamp..
+                    </h1>
+                    <p class="card-paragraph">
+                        250 ml
+                    </p>
+                    <div class="d-flex flex-row">
+                        <p class="card-paragraph mr-2">
+                            Seller:SuperComNet
+                        </p>
+                        <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png" style="width:50px;height:20px;">
+                    </div>
+                </div>
+                <div>
+                    <img style="width:25px;margin-left:10px" src="https://rukminim1.flixcart.com/image/416/416/kgiaykw0/shampoo/g/w/s/250-xtenso-care-shampoo-l-oral-professionnel-paris-xtenso-care-original-imafwpk3serqg45k.jpeg?q=70" class="ml-5" />
+                </div>
+            </div>
+            <div class="bg-white d-flex flex-row">
+                <div class="d-flex flex-row bg-white">
+                    <h5 class="ml-2">
+                        &#8377 573
+                    </h5>
+                    <p class="cost-of-the-product ml-2 mt-1 mb-1">
+                        &#8377 580
+                    </p>
+                    <p class="card-paragraph ml-2 mt-1 mb-1" style="color:green;font-weight:bold;">1% off</p>
+                </div>
+                <button style="text-align:right;margin-right:10px;margin-top:0px" class="bg-white ml-auto quantity-button ">
+                    Qty: 1
+                    <div class="dropdown-content ">
+                        <p class="button-ul">
+                            one
+                        </p>
+                        <br>
+                        <p class="button-ul">
+                            Two
+                        </p>
+                        <br>
+                        <p class="button-ul">
+                            More
+                        </p>
+                        <br>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="bg-white ml-2 pt-1">
+                <p class="card-paragraph" style="color:green;font-weight:bold;">
+                    1 offers applied . 7 offers Available
+                </p>
+            </div>
+            <h5 class="card-paragraph ml-2" style="color:black;">
+                Delivery by fri May 21 | <span class="card-paragraph" style="color:green;font-weight:bold;">Free</span> <span class="cost-of-the-product ml-2 mt-1 mb-1">&#8377 40</span>
+            </h5>
+
+            <div class="d-flex flex-row bg-white">
+                <div class="d-flex flex-row bg-white" style="text-align:center;">
+                    <button class="save-button d-flex flex-row ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save-fill ml-4 mt-1" viewBox="0 0 16 16" style="color:gray;">
+                            <path d="M8.5 1.5A1.5 1.5 0 0 1 10 0h4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h6c-.314.418-.5.937-.5 1.5v7.793L4.854 6.646a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l3.5-3.5a.5.5 0 0 0-.708-.708L8.5 9.293V1.5z" />
+                        </svg>
+                        <p class="card-paragraph ml-3 mt-1">
+                            Save for Later
+                        </p>
+                    </button>
+                </div>
+                <div class="d-flex flex-row bg-white" style="text-align:center;">
+                    <button class="save-button d-flex flex-row ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive-fill ml-4 mt-1" viewBox="0 0 16 16" style="color:gray;">
+                            <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z" />
+                        </svg>
+                        <p class="card-paragraph ml-3 mt-1">
+                            Remove
+                        </p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white">
+            <div class="bg-white mt-2 p-2 d-flex flex-row">
+                <div>
+                    <h1 class="card-heading">
+                        Savlon Clothes Disinfectant and Refresh...
+                    </h1>
+                    <p class="card-paragraph">
+                        170 g
+                    </p>
+                    <div class="d-flex flex-row">
+                        <p class="card-paragraph mr-2">
+                            Seller:SuperComNet
+                        </p>
+                        <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png" style="width:50px;height:20px;">
+                    </div>
+                </div>
+                <div>
+                    <img style="width:25px" src="https://rukminim1.flixcart.com/image/416/416/kf2v3ww0/all-purpose-cleaner/j/2/8/clothes-disinfectant-and-refreshing-spray-fb-svcds230-savlon-original-imafvm5z4hhszkby.jpeg?q=70" class="ml-5" />
+                </div>
+            </div>
+            <div class="bg-white d-flex flex-row">
+                <div class="d-flex flex-row bg-white">
+                    <h5 class="ml-2">
+                        &#8377 322
+                    </h5>
+                    <p class="cost-of-the-product ml-2 mt-1 mb-1">
+                        &#8377 350
+                    </p>
+                    <p class="card-paragraph ml-2 mt-1 mb-1" style="color:green;font-weight:bold;">8% off</p>
+                </div>
+                <button style="text-align:right;margin-right:10px;margin-top:0px" class="bg-white ml-auto quantity-button ">
+                    Qty: 1
+                    <div class="dropdown-content ">
+                        <p class="button-ul">
+                            one
+                        </p>
+                        <br>
+                        <p class="button-ul">
+                            Two
+                        </p>
+                        <br>
+                        <p class="button-ul">
+                            More
+                        </p>
+                        <br>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="bg-white ml-2 pt-1">
+                <p class="card-paragraph" style="color:green;font-weight:bold;">
+                    1 offers applied.5 offers Available
+                </p>
+            </div>
+            <h5 class="card-paragraph ml-2" style="color:black;">
+                Delivery by fri May 21 | <span class="card-paragraph" style="color:green;font-weight:bold;">Free</span> <span class="cost-of-the-product ml-2 mt-1 mb-1">&#8377 40</span>
+            </h5>
+
+            <div class="d-flex flex-row bg-white">
+                <div class="d-flex flex-row bg-white" style="text-align:center;">
+                    <button class="save-button d-flex flex-row ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save-fill ml-4 mt-1" viewBox="0 0 16 16" style="color:gray;">
+                            <path d="M8.5 1.5A1.5 1.5 0 0 1 10 0h4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h6c-.314.418-.5.937-.5 1.5v7.793L4.854 6.646a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l3.5-3.5a.5.5 0 0 0-.708-.708L8.5 9.293V1.5z" />
+                        </svg>
+                        <p class="card-paragraph ml-3 mt-1">
+                            Save for Later
+                        </p>
+                    </button>
+                </div>
+                <div class="d-flex flex-row bg-white" style="text-align:center;">
+                    <button class="save-button d-flex flex-row ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive-fill ml-4 mt-1" viewBox="0 0 16 16" style="color:gray;">
+                            <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z" />
+                        </svg>
+                        <p class="card-paragraph ml-3 mt-1">
+                            Remove
+                        </p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white">
+            <div class="bg-white mt-2 p-2 d-flex flex-row">
+                <div>
+                    <h1 class="card-heading">
+                        Rizzly MSK-White-N95-(5 PC) (Free si...
+                    </h1>
+                    <p class="card-paragraph">
+                        Free Size, Pack of 5
+                    </p>
+                    <div class="d-flex flex-row">
+                        <p class="card-paragraph mr-2">
+                            Seller:SATURNWATCHES
+                        </p>
+                        <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png" style="width:50px;height:20px;">
+                    </div>
+                </div>
+                <div>
+                    <img style="width:60px" src="https://rukminim1.flixcart.com/image/416/416/ko0d6kw0/mask-respirator/h/r/e/free-size-5-msk-white-n95-5-pc-respirator-rizzly-original-imag2k5h49jzeggy.jpeg?q=70" class="ml-5" />
+                </div>
+            </div>
+            <div class="bg-white d-flex flex-row">
+                <div class="d-flex flex-row bg-white">
+                    <h5 class="ml-2">
+                        &#8377 199
+                    </h5>
+                    <p class="cost-of-the-product ml-2 mt-1 mb-1">
+                        &#8377 1,299
+                    </p>
+                    <p class="card-paragraph ml-2 mt-1 mb-1" style="color:green;font-weight:bold;">84% off</p>
+                </div>
+                <button style="text-align:right;margin-right:10px;margin-top:0px" class="bg-white ml-auto quantity-button ">
+                    Qty: 1
+                    <div class="dropdown-content ">
+                        <p class="button-ul">
+                            one
+                        </p>
+                        <br>
+                        <p class="button-ul">
+                            Two
+                        </p>
+                        <br>
+                        <p class="button-ul">
+                            More
+                        </p>
+                        <br>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="bg-white ml-2 pt-1">
+                <p class="card-paragraph" style="color:green;font-weight:bold;">
+                    3 offers Available
+                </p>
+            </div>
+            <h5 class="card-paragraph ml-2" style="color:black;">
+                Delivery by Mon May 24 | <span class="card-paragraph" style="color:green;font-weight:bold;">Free</span> <span class="cost-of-the-product ml-2 mt-1 mb-1">&#8377 40</span>
+            </h5>
+
+            <div class="d-flex flex-row bg-white">
+                <div class="d-flex flex-row bg-white" style="text-align:center;">
+                    <button class="save-button d-flex flex-row ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save-fill ml-4 mt-1" viewBox="0 0 16 16" style="color:gray;">
+                            <path d="M8.5 1.5A1.5 1.5 0 0 1 10 0h4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h6c-.314.418-.5.937-.5 1.5v7.793L4.854 6.646a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l3.5-3.5a.5.5 0 0 0-.708-.708L8.5 9.293V1.5z" />
+                        </svg>
+                        <p class="card-paragraph ml-3 mt-1">
+                            Save for Later
+                        </p>
+                    </button>
+                </div>
+                <div class="d-flex flex-row bg-white" style="text-align:center;">
+                    <button class="save-button d-flex flex-row ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive-fill ml-4 mt-1" viewBox="0 0 16 16" style="color:gray;">
+                            <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z" />
+                        </svg>
+                        <p class="card-paragraph ml-3 mt-1">
+                            Remove
+                        </p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white">
+            <div class="bg-white mt-2 p-2 d-flex flex-row">
+                <div>
+                    <h1 class="card-heading">
+                        acer Aspire 7 Ryzen 5 Quad Core (8GB.
+                    </h1>
+                    <p class="card-paragraph">
+                        15.6 inch, Charcoal Black, 2.15 kg
+                    </p>
+                    <div class="d-flex flex-row">
+                        <p class="card-paragraph mr-2">
+                            Seller:SuperComNet
+                        </p>
+                        <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png" style="width:50px;height:20px;">
+                    </div>
+                </div>
+                <div>
+                    <img style="width:85px" src="https://rukminim1.flixcart.com/image/416/416/kcc9q4w0/computer/h/t/g/acer-na-gaming-laptop-original-imafthr8aa4rsjpn.jpeg?q=70" class="ml-5" />
+                </div>
+            </div>
+            <div class="bg-white d-flex flex-row">
+                <div class="d-flex flex-row bg-white">
+                    <h5 class="ml-2">
+                        &#8377 49,990
+                    </h5>
+                    <p class="cost-of-the-product ml-2 mt-1 mb-1">
+                        &#8377 72,990
+                    </p>
+                    <p class="card-paragraph ml-2 mt-1 mb-1" style="color:green;font-weight:bold;">31% off</p>
+                </div>
+                <button style="text-align:right;margin-right:15px;margin-top:0px" class="bg-white ml-auto quantity-button ">
+                    Qty: 1
+                    <div class="dropdown-content ">
+                        <p class="button-ul">
+                            one
+                        </p>
+                        <br>
+                        <p class="button-ul">
+                            Two
+                        </p>
+                        <br>
+                        <p class="button-ul">
+                            More
+                        </p>
+                        <br>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="bg-white ml-2 pt-1">
+                <p class="card-paragraph" style="color:green;font-weight:bold;">
+                    8 offers applied . 8 offers Available
+                </p>
+            </div>
+            <h5 class="card-paragraph ml-2" style="color:black;">
+                Delivery by fri May 21 | <span class="card-paragraph" style="color:green;font-weight:bold;">Free</span> <span class="cost-of-the-product ml-2 mt-1 mb-1">&#8377 40</span>
+            </h5>
+
+            <div class="d-flex flex-row bg-white">
+                <div class="d-flex flex-row bg-white" style="text-align:center;">
+                    <button class="save-button d-flex flex-row ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save-fill ml-4 mt-1" viewBox="0 0 16 16" style="color:gray;">
+                            <path d="M8.5 1.5A1.5 1.5 0 0 1 10 0h4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h6c-.314.418-.5.937-.5 1.5v7.793L4.854 6.646a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l3.5-3.5a.5.5 0 0 0-.708-.708L8.5 9.293V1.5z" />
+                        </svg>
+                        <p class="card-paragraph ml-3 mt-1">
+                            Save for Later
+                        </p>
+                    </button>
+                </div>
+                <div class="d-flex flex-row bg-white" style="text-align:center;">
+                    <button class="save-button d-flex flex-row ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive-fill ml-4 mt-1" viewBox="0 0 16 16" style="color:gray;">
+                            <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z" />
+                        </svg>
+                        <p class="card-paragraph ml-3 mt-1">
+                            Remove
+                        </p>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <div class="bg-white">
+            <div class="bg-white mt-2 p-2 d-flex flex-row">
+                <div>
+                    <h1 class="card-heading">
+                        PETER ENGLAND Men Solid Stright s...
+                    </h1>
+                    <p class="card-paragraph">
+                        Size: XL, Size: 42,Blue
+                    </p>
+                    <div class="d-flex flex-row">
+                        <p class="card-paragraph mr-2">
+                            Seller:RetailNet
+                        </p>
+                        <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png" style="width:50px;height:20px;">
+                    </div>
+                </div>
+                <div>
+                    <img style="width:50px" src="https://rukminim1.flixcart.com/image/880/1056/kh5607k0-0/kurta/e/h/4/xxl-pokuihsp016860-peter-england-original-imafx847fxxutwvk.jpeg?q=50" class="ml-5" />
+                </div>
+            </div>
+            <div class="bg-white d-flex flex-row">
+                <div class="d-flex flex-row bg-white">
+                    <h5 class="ml-2">
+                        &#8377 539
+                    </h5>
+                    <p class="cost-of-the-product ml-2 mt-1 mb-1">
+                        &#8377 1,990
+                    </p>
+                    <p class="card-paragraph ml-2 mt-1 mb-1" style="color:green;font-weight:bold;">55% off</p>
+                </div>
+                <button style="text-align:right;margin-right:15px;margin-top:0px" class="bg-white ml-auto quantity-button ">
+                    Qty: 1
+                    <div class="dropdown-content ">
+                        <p class="button-ul">
+                            one
+                        </p>
+                        <br>
+                        <p class="button-ul">
+                            Two
+                        </p>
+                        <br>
+                        <p class="button-ul">
+                            More
+                        </p>
+                        <br>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="bg-white ml-2 pt-1">
+                <p class="card-paragraph" style="color:green;font-weight:bold;">
+                    1 offers applied . 6 offers Available
+                </p>
+            </div>
+            <h5 class="card-paragraph ml-2" style="color:black;">
+                Delivery by fri May 21 | <span class="card-paragraph" style="color:green;font-weight:bold;">Free</span> <span class="cost-of-the-product ml-2 mt-1 mb-1">&#8377 40</span>
+            </h5>
+
+            <div class="d-flex flex-row bg-white">
+                <div class="d-flex flex-row bg-white" style="text-align:center;">
+                    <button class="save-button d-flex flex-row ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save-fill ml-4 mt-1" viewBox="0 0 16 16" style="color:gray;">
+                            <path d="M8.5 1.5A1.5 1.5 0 0 1 10 0h4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h6c-.314.418-.5.937-.5 1.5v7.793L4.854 6.646a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l3.5-3.5a.5.5 0 0 0-.708-.708L8.5 9.293V1.5z" />
+                        </svg>
+                        <p class="card-paragraph ml-3 mt-1">
+                            Save for Later
+                        </p>
+                    </button>
+                </div>
+                <div class="d-flex flex-row bg-white" style="text-align:center;">
+                    <button class="save-button d-flex flex-row ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive-fill ml-4 mt-1" viewBox="0 0 16 16" style="color:gray;">
+                            <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z" />
+                        </svg>
+                        <p class="card-paragraph ml-3 mt-1">
+                            Remove
+                        </p>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <div class="bg-white mt-2 p-2">
+            <p class="card-paragraph">
+                PRICE DETAILS
+            </p>
+            <hr>
+            <div class="bg-white d-flex flex-row">
+                <p style="font-size:14px">
+                    Price items(10 items)
+                </p>
+                <p style="text-align:right;margin-right:20px;margin-top:0px;font-size:14px" class="bg-white ml-auto  ">
+                    &#8377 83,283
+                </p>
+            </div>
+            <div class="bg-white d-flex flex-row">
+                <p style="font-size:14px">
+                    Discont
+                </p>
+                <p style="text-align:right;margin-right:20px;margin-top:0px;font-size:14px;color:green;font-weight:bold" class="bg-white ml-auto  ">
+                    - &#8377 29,322
+                </p>
+            </div>
+            <div class="bg-white d-flex flex-row">
+                <p style="font-size:14px">
+                    Delivery charges
+                </p>
+                <p style="text-align:right;margin-right:20px;margin-top:0px;font-size:14px" class="bg-white ml-auto  ">
+                    &#8377 90
+                </p>
+            </div>
+            <hr class="horizontal-line ">
+            <div class="bg-white d-flex flex-row">
+                <p style="font-size:14px font-weight:bold">
+                    Total Amount
+                </p>
+                <p style="text-align:right;margin-right:20px;margin-top:0px;font-size:14px" class="bg-white ml-auto  ">
+                    &#8377 54,051
+                </p>
+
+            </div>
+            <hr>
+            <p class="card-paragraph" style="color:green;font-weight:bold;">
+                You will save &#8377 29,232 on this order
+            </p>
+        </div>
+        <div class="bg-white d-flex flex-row sticky class">
+            <div class=" ml-2">
+                <h5 style="font-size:15px">
+                    &#8377 54,051
+                </h5>
+                <p style="color:blue;font-size:10px;">
+                    View price details
+                </p>
+
+            </div>
+            <button style="text-align:center;margin-right:18px;margin-top:0px" class=" ml-auto place-order-button m">
+                Place order
+            </button>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
